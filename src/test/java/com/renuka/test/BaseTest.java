@@ -16,7 +16,8 @@ public class BaseTest {
 
     @AfterTest
     public void testCleanUp() {
-        //driver.quit();
+        driver.quit();
+        driver.quit();
     }
 }
 
