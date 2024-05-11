@@ -12,7 +12,7 @@ public class DropDownTests extends BaseTest {
     public void selectByValueTest() {
         try {
             driver.get("https://the-internet.herokuapp.com/dropdown");
-            // WebElement dropdown = driver.findElement(By.id("dropdown"));
+
             WebElement dropdown = ElementFinder.getElement(driver, By.id("dropdown"));
             Select select = new Select(dropdown);
             select.selectByValue("1");
