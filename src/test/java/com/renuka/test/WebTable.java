@@ -18,6 +18,7 @@ public class WebTable extends BaseTest {
             currentRow.findElements(By.xpath(".//td")).forEach(el -> {
                 if (el.getText().contains("expected")) {
                     el.click();
+                    //Heelo;
                 }
             });
         }
