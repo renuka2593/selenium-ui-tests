@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="SmokeTest">
+        <classes>
+            <class name="com.renuka.test.AlertTests"/>
+            <class name="com.renuka.test.DropDownTests"/>
+            <class name="com.renuka.test.WebTable"/>
+            <class name="com.renuka.test.WindowsTests"/>
+        </classes>
+    </test>
+</suite>
